@@ -40,7 +40,7 @@ turning raw data into systems that *survive real-world chaos*.
 
 ## 🦴 Projects & Writing
 
-- 🧪 **Kaggle**[Kaggle](https://www.kaggle.com/annack)
+- 🧪 **Kaggle** — [Annack](https://www.kaggle.com/annack)
   research, experiments, new ML approaches  
 - ✍️ **Article Writer** —  
   [@mlfromjun / Neurolace](https://drukarnia.com.ua/mlfromjun)  
