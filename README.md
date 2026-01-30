@@ -1,52 +1,86 @@
-<!-- GOTH ANIMATED HEADER -->
 <p align="center">
-  <svg width="100%" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="blood" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#8b0000"/>
-        <stop offset="50%" stop-color="#b30000"/>
-        <stop offset="100%" stop-color="#8b0000"/>
-      </linearGradient>
+<svg width="100%" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
 
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
+  <defs>
+    <!-- Blood gradient -->
+    <linearGradient id="blood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a0000"/>
+      <stop offset="50%" stop-color="#b30000"/>
+      <stop offset="100%" stop-color="#5a0000"/>
+    </linearGradient>
 
-    <rect width="100%" height="100%" fill="#0b0b0f"/>
+    <!-- Soft glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-    <text x="50%" y="45%" text-anchor="middle"
-          font-size="36"
-          font-family="Georgia, serif"
-          fill="url(#blood)"
-          filter="url(#glow)">
-      Anna Chebotarova
-      <animate attributeName="opacity"
-               values="0.3;1;0.3"
-               dur="4s"
-               repeatCount="indefinite"/>
-    </text>
+    <!-- Floating animation -->
+    <animateTransform id="float"
+      attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="0 -6"
+      dur="3s"
+      repeatCount="indefinite"
+      direction="alternate"/>
+  </defs>
 
-    <text x="50%" y="65%" text-anchor="middle"
-          font-size="18"
-          font-family="monospace"
-          fill="#c9c9c9">
-      Machine Learning Engineer
-      <animateTransform
-        attributeName="transform"
-        type="translate"
-        from="-2 0"
-        to="2 0"
-        dur="2s"
-        repeatCount="indefinite"
-        direction="alternate"/>
-    </text>
-  </svg>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0b0b0f"/>
+
+  <!-- Moon -->
+  <circle cx="180" cy="120" r="48" fill="#1c1c26">
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Bats -->
+  <g fill="#2b2b35">
+    <path d="M980 80 q10 -10 20 0 q-10 10 -20 0">
+      <animateTransform type="translate" from="0 0" to="12 -6" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1030 140 q8 -8 16 0 q-8 8 -16 0">
+      <animateTransform type="translate" from="0 0" to="-10 6" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Name -->
+  <text x="50%" y="52%"
+        text-anchor="middle"
+        font-size="42"
+        font-family="Georgia, serif"
+        fill="url(#blood)"
+        filter="url(#glow)">
+    Anna Chebotarova
+    <animate attributeName="opacity"
+             values="0.4;1;0.4"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="50%" y="70%"
+        text-anchor="middle"
+        font-size="18"
+        font-family="monospace"
+        fill="#cfcfd6">
+    Machine Learning Engineer
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-3 0"
+      to="3 0"
+      dur="2.5s"
+      repeatCount="indefinite"
+      direction="alternate"/>
+  </text>
+
+</svg>
 </p>
+
 
 # 🦇 Welcome, traveler
 
