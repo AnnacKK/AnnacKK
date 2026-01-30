@@ -1,4 +1,25 @@
 <p align="center">
+<svg viewBox="0 0 600 120" width="100%" height="120"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="100%" height="100%" fill="#0b0b0f"/>
+
+  <text x="50%" y="55%"
+        text-anchor="middle"
+        font-size="32"
+        fill="#b30000"
+        font-family="Georgia, serif">
+    Anna Chebotarova
+    <animate attributeName="opacity"
+             values="0.3;1;0.3"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </text>
+
+</svg>
+</p>
+
+<p align="center">
 <svg width="100%" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
