@@ -40,7 +40,8 @@ turning raw data into systems that *survive real-world chaos*.
 
 ## 🦴 Projects & Writing
 
-- 🧪 **Kaggle** — research, experiments, new ML approaches  
+- 🧪 **Kaggle**[Kaggle](https://www.kaggle.com/annack)
+  research, experiments, new ML approaches  
 - ✍️ **Article Writer** —  
   [@mlfromjun / Neurolace](https://drukarnia.com.ua/mlfromjun)  
   Writing about **ML · MLOps · Math**
@@ -68,14 +69,5 @@ turning raw data into systems that *survive real-world chaos*.
   <i>“Strong systems are born in the dark.”</i>
 </p>
 
-# 💫 About Me:
-ancmslkcms
 
-
-#
-
-
-
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->v
 
