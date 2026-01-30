@@ -30,10 +30,10 @@ turning raw data into systems that *survive real-world chaos*.
 
 ## 🩶 What I Do Best
 
-- Build **classification, generation & forecasting models**
-- Design **end-to-end ML pipelines**
-- Improve model accuracy by **10–20%** with task-based metrics
-- Reduce training time by **up to 50%** through smart data prep
+- Build **all types of models**
+- Design **end-to-end ML production-ready pipelines** 
+- Improve model accuracy by **10–30%** with task-based metrics and R&D
+- Reduce training time by **up to 50%** through advances data preparation and EDA
 - Deploy models that **don’t panic in production**
 
 ---
