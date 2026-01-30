@@ -1,115 +1,12 @@
-<p align="center">
-<svg viewBox="0 0 600 120" width="100%" height="120"
-     xmlns="http://www.w3.org/2000/svg">
-
-  <rect width="100%" height="100%" fill="#0b0b0f"/>
-
-  <text x="50%" y="55%"
-        text-anchor="middle"
-        font-size="32"
-        fill="#b30000"
-        font-family="Georgia, serif">
-    Anna Chebotarova
-    <animate attributeName="opacity"
-             values="0.3;1;0.3"
-             dur="3s"
-             repeatCount="indefinite"/>
-  </text>
-
-</svg>
-</p>
-
-<p align="center">
-<svg width="100%" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
-
-  <defs>
-    <!-- Blood gradient -->
-    <linearGradient id="blood" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5a0000"/>
-      <stop offset="50%" stop-color="#b30000"/>
-      <stop offset="100%" stop-color="#5a0000"/>
-    </linearGradient>
-
-    <!-- Soft glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Floating animation -->
-    <animateTransform id="float"
-      attributeName="transform"
-      type="translate"
-      from="0 0"
-      to="0 -6"
-      dur="3s"
-      repeatCount="indefinite"
-      direction="alternate"/>
-  </defs>
-
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#0b0b0f"/>
-
-  <!-- Moon -->
-  <circle cx="180" cy="120" r="48" fill="#1c1c26">
-    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="6s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Bats -->
-  <g fill="#2b2b35">
-    <path d="M980 80 q10 -10 20 0 q-10 10 -20 0">
-      <animateTransform type="translate" from="0 0" to="12 -6" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1030 140 q8 -8 16 0 q-8 8 -16 0">
-      <animateTransform type="translate" from="0 0" to="-10 6" dur="5s" repeatCount="indefinite"/>
-    </path>
-  </g>
-
-  <!-- Name -->
-  <text x="50%" y="52%"
-        text-anchor="middle"
-        font-size="42"
-        font-family="Georgia, serif"
-        fill="url(#blood)"
-        filter="url(#glow)">
-    Anna Chebotarova
-    <animate attributeName="opacity"
-             values="0.4;1;0.4"
-             dur="4s"
-             repeatCount="indefinite"/>
-  </text>
-
-  <!-- Subtitle -->
-  <text x="50%" y="70%"
-        text-anchor="middle"
-        font-size="18"
-        font-family="monospace"
-        fill="#cfcfd6">
-    Machine Learning Engineer
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="-3 0"
-      to="3 0"
-      dur="2.5s"
-      repeatCount="indefinite"
-      direction="alternate"/>
-  </text>
-
-</svg>
-</p>
 
 
-# 🦇 Welcome, traveler
+# 🦇 Welcome
 
-I’m **Anna Chebotarova** —  
+I’m **Anna** —  
 a **Machine Learning Engineer** who builds models that are  
 **precise, resilient, and slightly dangerous**.
 
-> _Soft mind. Sharp models. Dark aesthetics._
+> _Soft mind. Sharp models._
 
 ---
 
@@ -117,7 +14,7 @@ a **Machine Learning Engineer** who builds models that are
 
 - 🎓 **BSc in Computer Science** — Dnipro National University  
 - 🧠 **ML Engineer (2023–present)** — freelance & contract work  
-- 🩸 Domains: **CV · NLP · Forecasting · GenAI**
+- 🩸 Domains: **CV · NLP · Forecasting · LLM ·GenAI**
 - 🌍 Languages: Ukrainian (native), English (B2)
 
 I work at the intersection of **mathematics, research, and production ML**,  
@@ -127,21 +24,7 @@ turning raw data into systems that *survive real-world chaos*.
 
 ## ⚙️ Tech Arsenal
 
-**Machine Learning**
-- TensorFlow / TFX · PyTorch · Keras
-- Model evaluation, error analysis, metrics design
-- Transfer learning · Overfitting control · Optimization
-
-**Data & Engineering**
-- Feature engineering · EDA · Imbalanced data
-- NumPy · Pandas · OpenCV · Scikit-learn
-
-**Deployment**
-- Docker · Kubernetes · CI/CD
-- Google Cloud Platform
-
-**Languages**
-- Python · C++ · C# · SQL · HTML/CSS
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=plastic&logo=opencv&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=plastic&logo=kubernetes&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=csharp&logoColor=white) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=plastic&logo=julia&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=plastic&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=plastic&logo=scipy&logoColor=%white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=plastic&logo=plotly&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=plastic&logo=apachespark&logoColor=black) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=plastic&logo=jenkins&logoColor=white)
 
 ---
 
@@ -177,11 +60,22 @@ turning raw data into systems that *survive real-world chaos*.
 
 - 🕷 GitHub: https://github.com/AnnacKK  
 - 🩸 Kaggle: https://www.kaggle.com/annack  
-- 🕯 LinkedIn: https://www.linkedin.com/in/anna-chebotarova-8814b7209  
+- 🕯 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/anna-chebotarova-8814b7209  )
 
 ---
 
 <p align="center">
   <i>“Strong systems are born in the dark.”</i>
 </p>
+
+# 💫 About Me:
+ancmslkcms
+
+
+#
+
+
+
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->v
 
